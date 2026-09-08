@@ -1,0 +1,73 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+xcuserdata/
+*.moved-aside
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+.swiftpm/configuration/registries.json
+.swiftpm/configuration/mirrors.json
+
+# Local package overrides
+Package.resolved.local
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.xcconfig.local
+Secrets.xcconfig
+secrets/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs / profiling
+*.log
+*.trace
+*.profraw
+*.profdata
+
+# Runtime-downloaded ML assets
+Models/Downloaded/
+Resources/Models/Downloaded/
+RuntimeModels/
+*.mlmodelc/
+
+# Generated / cached audiobook audio
+GeneratedAudio/
+AudioCache/
+Cache/
+.tmp/
+tmp/
+
+# Local test imports and extracted documents
+LocalBooks/
+ImportedBooks/
+ExtractedText/
+
+# Benchmarks generated locally
+Benchmarks/Results/
+benchmarks/results/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
