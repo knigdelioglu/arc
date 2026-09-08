@@ -169,4 +169,7 @@ Arc'ın temel çalışma modu tamamen yereldir:
 
 ## Durum
 
-Proje başlangıç aşamasındadır. Ayrıntılı MVP sınırları ve kabul kriterleri için [`SCOPE.md`](SCOPE.md) dosyasına bakın.
+Proje başlangıç aşamasındadır.
+
+- Ayrıntılı MVP kapsamı ve kabul kriterleri: [`SCOPE.md`](SCOPE.md)
+- Fazlara ayrılmış geliştirme planı: [`ROADMAP.md`](ROADMAP.md)
